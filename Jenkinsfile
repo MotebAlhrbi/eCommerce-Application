@@ -1,18 +1,17 @@
+Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Deploy') {
+            when {
+              expression {
+                currentBuild.result == null || currentBuild.result == 'SUCCESS' 
+              }
+            }
             steps {
-                git 'https://github.com/MotebAlhrbi/eCommerce-Application'
-                script {
-                    def mvnHome = tool 'Maven'
-                    def mvnCMD = "${mvnHome}/bin/mvn"
-                    sh "${mvnCMD} clean install"
-                }
+                sh 'make publish'
             }
         }
     }
-
-    // Add more stages for testing, deployment, etc.
 }
