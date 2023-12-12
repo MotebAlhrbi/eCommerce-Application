@@ -38,3 +38,23 @@
 ٢٠٢٣-١٢-١١ ٢٣:٢٧:١٧.٦٠٦  INFO 4824 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 ٢٠٢٣-١٢-١١ ٢٣:٢٧:١٧.٦١٣  INFO 4824 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 ٢٠٢٣-١٢-١١ ٢٣:٢٧:١٧.٦٤١  INFO 4824 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-12 11:15:40.162  INFO 15232 --- [main] c.example.demo.SareetaApplicationTests   : Starting SareetaApplicationTests on DESKTOP-NVOCNBS with PID 15232 (started by User in C:\Users\User\Desktop\eCommerce-Application\starter_code)
+2023-12-12 11:15:40.163  INFO 15232 --- [main] c.example.demo.SareetaApplicationTests   : No active profile set, falling back to default profiles: default
+2023-12-12 11:15:40.473  INFO 15232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-12 11:15:40.528  INFO 15232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48ms. Found 4 JPA repository interfaces.
+2023-12-12 11:15:41.080  INFO 15232 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-12 11:15:41.112  INFO 15232 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-12-12 11:15:41.181  INFO 15232 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-12-12 11:15:41.281  INFO 15232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-12 11:15:41.381  INFO 15232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-12 11:15:41.393  INFO 15232 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-12 11:15:41.847  INFO 15232 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-12 11:15:41.854  INFO 15232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-12 11:15:42.307  WARN 15232 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-12 11:15:42.760  INFO 15232 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77d3c3d7, org.springframework.security.web.context.SecurityContextPersistenceFilter@1760e688, org.springframework.security.web.header.HeaderWriterFilter@7030b74c, org.springframework.web.filter.CorsFilter@4cefa0be, org.springframework.security.web.authentication.logout.LogoutFilter@744fb110, com.example.demo.security.JWTAuthenticationFilter@5a3be84, com.example.demo.security.JWTAuthenticationVerficationFilter@4850d66b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43cbafa6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33e8694b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21f479cd, org.springframework.security.web.session.SessionManagementFilter@f96654, org.springframework.security.web.access.ExceptionTranslationFilter@5ddf5118, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21d15932]
+2023-12-12 11:15:42.868  INFO 15232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-12 11:15:43.010  INFO 15232 --- [main] c.example.demo.SareetaApplicationTests   : Started SareetaApplicationTests in 3.073 seconds (JVM running for 3.631)
+2023-12-12 11:15:43.239  INFO 15232 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-12 11:15:43.240  INFO 15232 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-12 11:15:43.243  INFO 15232 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-12 11:15:43.246  INFO 15232 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
